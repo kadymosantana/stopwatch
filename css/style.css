@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  place-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #20222e;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: max-content;
+  margin: auto;
+}
+
+.container button {
+  background: #353a4a;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  box-shadow: 0px 1px 1px 0.5px #1a1b25;
+  outline: none;
+  cursor: pointer;
+}
+
+button[disabled] {
+  opacity: 0.3;
+  cursor: initial;
+}
+
+.container button:hover {
+  background: mediumspringgreen;
+  color: #242734;
+}
+
+.container .tempo {
+  font-size: 7rem;
+  font-weight: 200;
+  letter-spacing: -10px;
+  color: mediumspringgreen;
+}
+
+.tempo .colon {
+  font-weight: 400;
+}
+
+@media (max-width: 500px) {
+  .container .tempo {
+    font-size: 5rem;
+  }
+
+  .container button {
+    font-size: 16px;
+  }
+}
