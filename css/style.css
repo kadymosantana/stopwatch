@@ -46,7 +46,7 @@ button[disabled] {
 .container .tempo {
   font-size: 7rem;
   font-weight: 200;
-  letter-spacing: -10px;
+  letter-spacing: -5px;
   color: mediumspringgreen;
 }
 
