@@ -9,7 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: #20222e;
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
 
 .container button {
   background: #353a4a;
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'Open sans', sans-serif;
   font-size: 18px;
   color: #fff;
   padding: 6px 12px;
